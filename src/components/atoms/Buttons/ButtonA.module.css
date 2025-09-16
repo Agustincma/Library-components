@@ -1,0 +1,23 @@
+/* Inner shadow */
+.inner {
+  box-shadow: inset -5px -5px 10px rgba(250, 251, 255, 1),
+              inset 5px 5px 10px rgba(22, 27, 29, 0.23);
+}
+
+/* Outer shadow con blur 10 */
+.outher10 {
+  box-shadow: -5px -5px 10px rgba(250, 251, 255, 1),
+               5px 5px 10px rgba(22, 27, 29, 0.23);
+}
+
+/* Outer shadow con blur 20 */
+.outher20 {
+  box-shadow: -10px -10px 20px rgba(250, 251, 255, 1),
+               10px 10px 20px rgba(22, 27, 29, 0.23);
+}
+
+/* Outer shadow con blur 40 */
+.outher40 {
+  box-shadow: -20px -20px 40px rgba(250, 251, 255, 1),
+               20px 20px 40px rgba(22, 27, 29, 0.23);
+}
